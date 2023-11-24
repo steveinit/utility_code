@@ -8,5 +8,9 @@ curl -X POST -H "Content-Type: application/json" -d '{
   
 
 /*
-The above curl does work in the current stage against the API gateway and Lambda
+To calculate your CAGR, run calculate_gridCAGR.py with your parameters.
+
+The above curl works in the current stage against the API gateway and Lambda.
+Feel free to test it out. The API gateway is rate limited pretty low (1 hit/sec).
+If you get back a 429 Too Many Requests, wait a bit and try again.
 */
